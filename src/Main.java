@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        BankAccount acc01 = new BankAccount(0, 2500.D);
+        acc01.confInfo();
     }
 }
