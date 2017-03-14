@@ -1,11 +1,16 @@
+package javakurs;
+
 public class CheckingAccount extends BankAccount {
-    private double limit;
 
     // Constructor
     public CheckingAccount(int accountNumber, double balance, double limit) {
         super(accountNumber, balance);
         this.limit = limit;
+        setAccountType("Checking Account");
     }
+
+    // Attributes
+    private double limit;
 
     // Methods
     public void setLimit(double limit) {
